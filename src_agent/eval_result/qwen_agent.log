@@ -1,0 +1,11 @@
+========================================
+INFO:__main__:📊 KẾT QUẢ ĐÁNH GIÁ CUỐI CÙNG
+INFO:__main__:========================================
+INFO:__main__:Target Model: local
+INFO:__main__:Dataset Samples: 39500.00
+INFO:__main__:Numerical Accuracy (%): 81.03
+INFO:__main__:Exact Match (%): 39.10
+INFO:__main__:Reasoning Rate (%): 83.70
+INFO:__main__:Avg Time (s): 3.02
+INFO:__main__:========================================
+INFO:__main__:Chi tiết đã lưu tại: eval_results_checkpoint_318.csv

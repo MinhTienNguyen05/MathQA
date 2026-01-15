@@ -1,0 +1,33 @@
+# --- Core Deep Learning ---
+
+torch>=2.1.0
+
+# Hugging Face Ecosystem
+transformers>=4.40.0        # Cần bản mới để hỗ trợ tốt Qwen2.5
+accelerate>=0.27.0          # Hỗ trợ train và tối ưu phần cứng
+datasets>=2.16.0            # Load dữ liệu huấn luyện
+bitsandbytes>=0.41.0        # (Tùy chọn) Hỗ trợ Quantization nếu cần tiết kiệm VRAM
+
+# --- Agent Tools & Logic ---
+sympy>=1.12                 # Công cụ Toán học (Symbolic Math)
+wikipedia>=1.4.0            # Công cụ tìm kiếm Wikipedia
+json_repair>=0.1.0          # Sửa lỗi JSON sinh ra từ LLM (Quan trọng)
+
+# --- Training & Monitoring ---
+scikit-learn                # Hỗ trợ tính toán metrics (nếu cần)
+tensorboard                 # Để theo dõi loss khi train (
+tqdm                        # Thanh tiến trình (Progress bar)
+
+# --- Utilities ---
+numpy
+pandas
+
+peft>=0.7.0
+
+bitsandbytes>=0.41.0
+
+torchvision
+Pillow
+sentencepiece
+protobuf
+gradio

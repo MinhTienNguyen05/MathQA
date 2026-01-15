@@ -1,0 +1,10 @@
+
+INFO:__main__:========================================
+INFO:__main__:Total Samples: 39500.00
+INFO:__main__:Numerical Accuracy (%): 86.96
+INFO:__main__:Exact Match (%): 82.63
+INFO:__main__:Reasoning Rate (%): 83.76
+INFO:__main__:Avg Time (s): 1.39
+INFO:__main__:Avg Response Length (words): 113.37
+INFO:__main__:========================================
+INFO:__main__:Chi tiết đã lưu tại: eval_qwen_math_results.csv
